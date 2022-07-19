@@ -1,0 +1,55 @@
+date	price	unit	num	weight	name
+1	3				water
+1	29.3	4		3.67	watermelon
+1	11				duck
+2	21				chicken
+2	79	26.34	3		sock
+2	37.2				supermarket
+2	15.4	4			watermelon
+2	50				electric_car
+3	10				basketball_court
+5	149				fruit
+5	19				duck
+6	12				delivery
+8	59.9				dried_shrimp
+8	19.9				chili_sauce
+8	24.7				chili_sauce
+8	126				beef_jerky
+8	3				water
+8	14	4			watermelon
+8	13				duck
+8	40.33				clothing
+9	15				basketball_court
+9	16.5	4			watermelon
+9	13				duck
+10	200				internet_fee
+10	21				chicken
+10	25				swimming_pants
+10	5				storage
+10	40				swim
+10	15				basketball_court
+10	18		2		energy_drink
+10	43.5				supermarket
+10	20.5	4			watermelon
+10	10				duck
+11	19.9				skirt
+11	59.2				supermarket
+11	16.5				duck
+12	55.22				rhinitis_medicine
+15	3				water
+15	16.6	7.9			grape
+15	39.9	4			watermelon
+15	17.5				duck
+16	21				chicken
+16	19	4.5			watermelon
+16	5				storage
+16	12				taxi
+16	118				friend_swim
+16	40				swim
+16	6		3		water
+17	21				chicken
+17	21				chicken
+17	10				basketball_court
+17	63.4				supermarket
+18	27				green_beans
+19	0.5				temporary_storage
