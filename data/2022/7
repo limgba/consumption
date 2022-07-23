@@ -53,3 +53,16 @@ date	price	unit	num	weight	name
 17	63.4				supermarket
 18	27				green_beans
 19	0.5				temporary_storage
+22	3				milk
+22	19.9				coconut_drinks
+22	8.9			0.245	milk
+22	47.2		8	0.2	milk
+22	27.8	13.9			grape
+22	19.8	4			watermelon
+22	13.5				duck
+23	13.8				tissue
+23	14.2			4	watermelon
+24	21				chicken
+24	21				chicken
+24	8.2			2.5	watermelon
+24	10				basketball_court
