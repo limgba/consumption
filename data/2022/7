@@ -37,7 +37,7 @@ date	price	unit	num	weight	name
 11	16.5				duck
 12	55.22				rhinitis_medicine
 15	3				water
-15	16.6	7.9			grape
+15	16.6	15.8			grape
 15	39.9	4			watermelon
 15	17.5				duck
 16	21				chicken
@@ -66,3 +66,6 @@ date	price	unit	num	weight	name
 24	21				chicken
 24	8.2			2.5	watermelon
 24	10				basketball_court
+26	16.6	6	24		egg
+26	30	13			grape
+29	3				milk
