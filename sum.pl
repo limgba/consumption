@@ -47,7 +47,7 @@ if ($argc == 1)
 	@months = split(" ", $month_str);
 	foreach $month (@months)
 	{
-		$consumption += sum("data/$year/$month");
+		$consumption = sum("data/$year/$month");
 		$sum += $consumption;
 		say("$month	$consumption");
 	}

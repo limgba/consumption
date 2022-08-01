@@ -69,3 +69,32 @@ date	price	unit	num	weight	name
 26	16.6	6	24		egg
 26	30	13			grape
 29	3				milk
+29	4			1	water
+29	8.9			0.245	milk
+29	5.9			0.2	milk
+29	5.9			0.2	milk
+29	5.9			0.2	milk
+29	5.9			0.2	milk
+29	5.9			0.2	milk
+29	5.9			0.2	milk
+29	27.3	13.8			grape
+29	28.3	4			watermelon
+29	15				duck
+30	13.9				blueberry
+30	7.8	15.6		0.25	shanghai_green
+30	48.9	48.9		0.5	tenden_of_cow
+30	10.9			0.21	milk
+30	24.9	124.5		0.1	sauce_beef
+30	10				lamp
+30	17	6	22		egg
+30	2.3	4			shanghai_green
+30	15				basketball_court
+31	15				meituan_vip
+31	21.8				chicken
+31	15				basketball_court
+31	18.7	4			watermelon
+31	38			12	grilled_oysters
+31	28				beef_skewers
+31	20				chicken_wings
+31	13.1				chinese_chives
+31	23.1				grilled_shrimp
