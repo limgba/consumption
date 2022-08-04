@@ -1,3 +1,28 @@
 date	price	unit	num	weight	name
 1	30				hospital_registration
 1	1322.18				anemia_check
+1	15				chicken
+1	27.6		2		chicken_wings
+1	7.8				chinese_chives
+1	8.4				enoki_mushroom
+1	9				broccoli
+1	13.5				capelin
+1	18		4		grilled_shrimp
+2	7.5				chinese_chives
+2	9				broccoli
+2	27.6		2		chicken_wings
+2	12		3		grilled_shrimp
+2	13.5				capelin
+2	16				squid
+2	35.2				grilled_oysters
+2	11.4				cattle_ligament
+2	13.5				chicken_palm
+2	100				internet_fee
+4	3				milk
+4	4.5				cake
+4	30				hospital_registration
+4	7.5				basketball_court
+4	9.9	8.8			wampee
+4	22.3	9.9			grape
+4	9.9	2.5			watermelon
+4	14.5				duck

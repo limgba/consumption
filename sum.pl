@@ -4,7 +4,7 @@ use feature "say";
 
 sub sum
 {
-	my ($file) = @_;
+	my ($file, $day) = @_;
 	my $index=0;
 	my $line=0;
 	open(rd, "<$file");
@@ -29,6 +29,10 @@ sub sum
 		else
 		{
 			@arr = split("\t", $str);
+			if ($day > 0 && $arr[0] != $day)
+			{
+				next;
+			}
 			$sum += $arr[$index];
 		}
 	}
@@ -47,7 +51,7 @@ if ($argc == 1)
 	@months = split(" ", $month_str);
 	foreach $month (@months)
 	{
-		$consumption = sum("data/$year/$month");
+		$consumption = sum("data/$year/$month", 0);
 		$sum += $consumption;
 		say("$month	$consumption");
 	}
@@ -57,7 +61,15 @@ elsif ($argc == 2)
 	$year=$ARGV[0];
 	$month=$ARGV[1];
 	$file="data/$year/$month";
-	$sum = sum($file);
+	$sum = sum($file, 0);
+}
+elsif ($argc == 3)
+{
+	$year=$ARGV[0];
+	$month=$ARGV[1];
+	$day=$ARGV[2];
+	$file="data/$year/$month";
+	$sum = sum($file, $day);
 }
 else
 {
@@ -67,7 +79,7 @@ else
 	$month =~ s/\D//;
 	$month += 0;
 	$file="data/$year/$month";
-	$sum = sum($file);
+	$sum = sum($file, 0);
 }
 
 say($sum);
