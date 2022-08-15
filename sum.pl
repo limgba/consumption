@@ -9,14 +9,15 @@ sub sum
 	my $line=0;
 	open(rd, "<$file");
 	my $sum=0;
+	my $i = 0;
 	while (<rd>)
 	{
 		my $str = $_;
 		$line++;
 		if ($line == 1)
 		{
-			@arr = split("\t", $str);
-			$size = @arr;
+			my @arr = split("\t", $str);
+			my $size = @arr;
 			for ($i = 0; $i < $size; $i++)
 			{
 				if ("price" eq $arr[$i])
@@ -28,7 +29,7 @@ sub sum
 		}
 		else
 		{
-			@arr = split("\t", $str);
+			my @arr = split("\t", $str);
 			if ($day > 0 && $arr[0] != $day)
 			{
 				next;
@@ -70,6 +71,30 @@ elsif ($argc == 3)
 	$day=$ARGV[2];
 	$file="data/$year/$month";
 	$sum = sum($file, $day);
+}
+elsif ($argc == 4)
+{
+	$year=$ARGV[0];
+	$month=$ARGV[1];
+	$day=$ARGV[2];
+	$is_before=$ARGV[3];
+
+	$day += 0;
+	$file="data/$year/$month";
+	if ($is_before != 0)
+	{
+		for ($i = 1; $i < $day; $i++)
+		{
+			$sum += sum($file, $i);
+		}
+	}
+	else
+	{
+		for ($i = $day; $i < 32; $i++)
+		{
+			$sum += sum($file, $i);
+		}
+	}
 }
 else
 {
