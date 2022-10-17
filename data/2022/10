@@ -60,6 +60,7 @@ date	price	unit	num	weight	name
 10	11.1				leek
 10	5.8				pepper
 10	10.8				eggplant
+11	100				internet_fee
 11	15.8				beef_skewers
 11	2				houttuynia_cordata
 11	15				pig_tendon
@@ -67,3 +68,17 @@ date	price	unit	num	weight	name
 11	16				money_belly
 11	15				cattle_stomach
 12	18				duck
+14	20.5				duck
+14	5.5				instant_noodles
+15	15				chicken
+15	15				chicken
+15	15				basketball_court
+15	22	4.5			watermelon
+15	15.4				crab_apple
+16	23.3	6.8	28		egg
+16	26	58			beef
+16	1.8	10			ginger
+16	1.7	6			garlic
+16	11	25			straw_mushroom
+16	10				basketball_court
+16	6				duck

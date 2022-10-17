@@ -50,7 +50,20 @@ if ($argc == 1)
 	$sum=0;
 	$month_str = `ls data/$year`;
 	@months = split(" ", $month_str);
+	@big_months = ();
 	foreach $month (@months)
+	{
+		if ($month > 9)
+		{
+			push(@big_months, $month);
+			next;
+		}
+		$consumption = sum("data/$year/$month", 0);
+		$sum += $consumption;
+		say("$month	$consumption");
+	}
+
+	foreach $month (@big_months)
 	{
 		$consumption = sum("data/$year/$month", 0);
 		$sum += $consumption;
