@@ -106,3 +106,8 @@ date	price	unit	num	weight	name
 25	23.4	7			green_bean
 25	3.2	2	5		banana
 25	10.1	33.8			red_dates
+27	0.5				temporary_storage
+30	38				lunch
+30	6		2		water
+30	94.8				dinner
+30	21.8				dental_floss
